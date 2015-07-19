@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33E03E831B5AC58B00A8BC42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E03E821B5AC58B00A8BC42 /* main.m */; };
+		33E03E861B5AC58B00A8BC42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E03E851B5AC58B00A8BC42 /* AppDelegate.m */; };
+		33E03E891B5AC58B00A8BC42 /* PostNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E03E881B5AC58B00A8BC42 /* PostNotificationViewController.m */; };
+		33E03E8C1B5AC58B00A8BC42 /* observerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E03E8B1B5AC58B00A8BC42 /* observerViewController.m */; };
+		33E03E8F1B5AC58B00A8BC42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E03E8D1B5AC58B00A8BC42 /* Main.storyboard */; };
+		33E03E911B5AC58B00A8BC42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E03E901B5AC58B00A8BC42 /* Images.xcassets */; };
+		33E03E941B5AC58B00A8BC42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E03E921B5AC58B00A8BC42 /* LaunchScreen.xib */; };
+		33E03EA01B5AC58B00A8BC42 /* UsingNotificationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E03E9F1B5AC58B00A8BC42 /* UsingNotificationsTests.m */; };
+		33E03EAC1B5AC69800A8BC42 /* secondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E03EAB1B5AC69800A8BC42 /* secondViewController.xib */; };
+		33E03EAE1B5AC6A300A8BC42 /* thirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E03EAD1B5AC6A300A8BC42 /* thirdViewController.xib */; };
+		33E03EB01B5AC6AE00A8BC42 /* fourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E03EAF1B5AC6AE00A8BC42 /* fourthViewController.xib */; };
+		33E03EB21B5AC6B500A8BC42 /* fifthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E03EB11B5AC6B500A8BC42 /* fifthViewController.xib */; };
+		33E03EC51B5AC99400A8BC42 /* fifthObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E03EC41B5AC99400A8BC42 /* fifthObserverViewController.m */; };
+		33E03ECB1B5AC9BC00A8BC42 /* secondObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E03ECA1B5AC9BC00A8BC42 /* secondObserverViewController.m */; };
+		33E03ECE1B5AC9C700A8BC42 /* thirdObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E03ECD1B5AC9C700A8BC42 /* thirdObserverViewController.m */; };
+		33E03ED11B5AC9D200A8BC42 /* fourthObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E03ED01B5AC9D200A8BC42 /* fourthObserverViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33E03E9A1B5AC58B00A8BC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E03E751B5AC58B00A8BC42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E03E7C1B5AC58B00A8BC42;
+			remoteInfo = UsingNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33E03E7D1B5AC58B00A8BC42 /* UsingNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E03E811B5AC58B00A8BC42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E03E821B5AC58B00A8BC42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33E03E841B5AC58B00A8BC42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33E03E851B5AC58B00A8BC42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33E03E871B5AC58B00A8BC42 /* PostNotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostNotificationViewController.h; sourceTree = "<group>"; };
+		33E03E881B5AC58B00A8BC42 /* PostNotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostNotificationViewController.m; sourceTree = "<group>"; };
+		33E03E8A1B5AC58B00A8BC42 /* observerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = observerViewController.h; sourceTree = "<group>"; };
+		33E03E8B1B5AC58B00A8BC42 /* observerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = observerViewController.m; sourceTree = "<group>"; };
+		33E03E8E1B5AC58B00A8BC42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33E03E901B5AC58B00A8BC42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33E03E931B5AC58B00A8BC42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		33E03E991B5AC58B00A8BC42 /* UsingNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsingNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E03E9E1B5AC58B00A8BC42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E03E9F1B5AC58B00A8BC42 /* UsingNotificationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsingNotificationsTests.m; sourceTree = "<group>"; };
+		33E03EAB1B5AC69800A8BC42 /* secondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondViewController.xib; sourceTree = "<group>"; };
+		33E03EAD1B5AC6A300A8BC42 /* thirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = thirdViewController.xib; sourceTree = "<group>"; };
+		33E03EAF1B5AC6AE00A8BC42 /* fourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fourthViewController.xib; sourceTree = "<group>"; };
+		33E03EB11B5AC6B500A8BC42 /* fifthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fifthViewController.xib; sourceTree = "<group>"; };
+		33E03EC31B5AC99400A8BC42 /* fifthObserverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fifthObserverViewController.h; sourceTree = "<group>"; };
+		33E03EC41B5AC99400A8BC42 /* fifthObserverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fifthObserverViewController.m; sourceTree = "<group>"; };
+		33E03EC91B5AC9BC00A8BC42 /* secondObserverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondObserverViewController.h; sourceTree = "<group>"; };
+		33E03ECA1B5AC9BC00A8BC42 /* secondObserverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondObserverViewController.m; sourceTree = "<group>"; };
+		33E03ECC1B5AC9C700A8BC42 /* thirdObserverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirdObserverViewController.h; sourceTree = "<group>"; };
+		33E03ECD1B5AC9C700A8BC42 /* thirdObserverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirdObserverViewController.m; sourceTree = "<group>"; };
+		33E03ECF1B5AC9D200A8BC42 /* fourthObserverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourthObserverViewController.h; sourceTree = "<group>"; };
+		33E03ED01B5AC9D200A8BC42 /* fourthObserverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourthObserverViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33E03E7A1B5AC58B00A8BC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E03E961B5AC58B00A8BC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E03E741B5AC58B00A8BC42 = {
+			isa = PBXGroup;
+			children = (
+				33E03E7F1B5AC58B00A8BC42 /* UsingNotifications */,
+				33E03E9C1B5AC58B00A8BC42 /* UsingNotificationsTests */,
+				33E03E7E1B5AC58B00A8BC42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33E03E7E1B5AC58B00A8BC42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33E03E7D1B5AC58B00A8BC42 /* UsingNotifications.app */,
+				33E03E991B5AC58B00A8BC42 /* UsingNotificationsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33E03E7F1B5AC58B00A8BC42 /* UsingNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				33E03EB51B5AC6E500A8BC42 /* AppDelegates */,
+				33E03EB41B5AC6D500A8BC42 /* Views */,
+				33E03EB61B5AC6F800A8BC42 /* ViewControllers */,
+				33E03E901B5AC58B00A8BC42 /* Images.xcassets */,
+				33E03E921B5AC58B00A8BC42 /* LaunchScreen.xib */,
+				33E03E801B5AC58B00A8BC42 /* Supporting Files */,
+			);
+			path = UsingNotifications;
+			sourceTree = "<group>";
+		};
+		33E03E801B5AC58B00A8BC42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33E03E811B5AC58B00A8BC42 /* Info.plist */,
+				33E03E821B5AC58B00A8BC42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33E03E9C1B5AC58B00A8BC42 /* UsingNotificationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				33E03E9F1B5AC58B00A8BC42 /* UsingNotificationsTests.m */,
+				33E03E9D1B5AC58B00A8BC42 /* Supporting Files */,
+			);
+			path = UsingNotificationsTests;
+			sourceTree = "<group>";
+		};
+		33E03E9D1B5AC58B00A8BC42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33E03E9E1B5AC58B00A8BC42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33E03EB31B5AC6B800A8BC42 /* nibFiles */ = {
+			isa = PBXGroup;
+			children = (
+				33E03EAB1B5AC69800A8BC42 /* secondViewController.xib */,
+				33E03EAD1B5AC6A300A8BC42 /* thirdViewController.xib */,
+				33E03EAF1B5AC6AE00A8BC42 /* fourthViewController.xib */,
+				33E03EB11B5AC6B500A8BC42 /* fifthViewController.xib */,
+			);
+			name = nibFiles;
+			sourceTree = "<group>";
+		};
+		33E03EB41B5AC6D500A8BC42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33E03E8D1B5AC58B00A8BC42 /* Main.storyboard */,
+				33E03EB31B5AC6B800A8BC42 /* nibFiles */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		33E03EB51B5AC6E500A8BC42 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				33E03E841B5AC58B00A8BC42 /* AppDelegate.h */,
+				33E03E851B5AC58B00A8BC42 /* AppDelegate.m */,
+			);
+			name = AppDelegates;
+			sourceTree = "<group>";
+		};
+		33E03EB61B5AC6F800A8BC42 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				33E03E871B5AC58B00A8BC42 /* PostNotificationViewController.h */,
+				33E03E881B5AC58B00A8BC42 /* PostNotificationViewController.m */,
+				33E03E8A1B5AC58B00A8BC42 /* observerViewController.h */,
+				33E03E8B1B5AC58B00A8BC42 /* observerViewController.m */,
+				33E03EC91B5AC9BC00A8BC42 /* secondObserverViewController.h */,
+				33E03ECA1B5AC9BC00A8BC42 /* secondObserverViewController.m */,
+				33E03ECC1B5AC9C700A8BC42 /* thirdObserverViewController.h */,
+				33E03ECD1B5AC9C700A8BC42 /* thirdObserverViewController.m */,
+				33E03ECF1B5AC9D200A8BC42 /* fourthObserverViewController.h */,
+				33E03ED01B5AC9D200A8BC42 /* fourthObserverViewController.m */,
+				33E03EC31B5AC99400A8BC42 /* fifthObserverViewController.h */,
+				33E03EC41B5AC99400A8BC42 /* fifthObserverViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33E03E7C1B5AC58B00A8BC42 /* UsingNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E03EA31B5AC58B00A8BC42 /* Build configuration list for PBXNativeTarget "UsingNotifications" */;
+			buildPhases = (
+				33E03E791B5AC58B00A8BC42 /* Sources */,
+				33E03E7A1B5AC58B00A8BC42 /* Frameworks */,
+				33E03E7B1B5AC58B00A8BC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UsingNotifications;
+			productName = UsingNotifications;
+			productReference = 33E03E7D1B5AC58B00A8BC42 /* UsingNotifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33E03E981B5AC58B00A8BC42 /* UsingNotificationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E03EA61B5AC58B00A8BC42 /* Build configuration list for PBXNativeTarget "UsingNotificationsTests" */;
+			buildPhases = (
+				33E03E951B5AC58B00A8BC42 /* Sources */,
+				33E03E961B5AC58B00A8BC42 /* Frameworks */,
+				33E03E971B5AC58B00A8BC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E03E9B1B5AC58B00A8BC42 /* PBXTargetDependency */,
+			);
+			name = UsingNotificationsTests;
+			productName = UsingNotificationsTests;
+			productReference = 33E03E991B5AC58B00A8BC42 /* UsingNotificationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33E03E751B5AC58B00A8BC42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.sky;
+				TargetAttributes = {
+					33E03E7C1B5AC58B00A8BC42 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					33E03E981B5AC58B00A8BC42 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 33E03E7C1B5AC58B00A8BC42;
+					};
+				};
+			};
+			buildConfigurationList = 33E03E781B5AC58B00A8BC42 /* Build configuration list for PBXProject "UsingNotifications" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33E03E741B5AC58B00A8BC42;
+			productRefGroup = 33E03E7E1B5AC58B00A8BC42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33E03E7C1B5AC58B00A8BC42 /* UsingNotifications */,
+				33E03E981B5AC58B00A8BC42 /* UsingNotificationsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33E03E7B1B5AC58B00A8BC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E03EB21B5AC6B500A8BC42 /* fifthViewController.xib in Resources */,
+				33E03EAE1B5AC6A300A8BC42 /* thirdViewController.xib in Resources */,
+				33E03E8F1B5AC58B00A8BC42 /* Main.storyboard in Resources */,
+				33E03E941B5AC58B00A8BC42 /* LaunchScreen.xib in Resources */,
+				33E03EAC1B5AC69800A8BC42 /* secondViewController.xib in Resources */,
+				33E03EB01B5AC6AE00A8BC42 /* fourthViewController.xib in Resources */,
+				33E03E911B5AC58B00A8BC42 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E03E971B5AC58B00A8BC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33E03E791B5AC58B00A8BC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E03E8C1B5AC58B00A8BC42 /* observerViewController.m in Sources */,
+				33E03E861B5AC58B00A8BC42 /* AppDelegate.m in Sources */,
+				33E03ECE1B5AC9C700A8BC42 /* thirdObserverViewController.m in Sources */,
+				33E03E891B5AC58B00A8BC42 /* PostNotificationViewController.m in Sources */,
+				33E03EC51B5AC99400A8BC42 /* fifthObserverViewController.m in Sources */,
+				33E03ED11B5AC9D200A8BC42 /* fourthObserverViewController.m in Sources */,
+				33E03ECB1B5AC9BC00A8BC42 /* secondObserverViewController.m in Sources */,
+				33E03E831B5AC58B00A8BC42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E03E951B5AC58B00A8BC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E03EA01B5AC58B00A8BC42 /* UsingNotificationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33E03E9B1B5AC58B00A8BC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E03E7C1B5AC58B00A8BC42 /* UsingNotifications */;
+			targetProxy = 33E03E9A1B5AC58B00A8BC42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33E03E8D1B5AC58B00A8BC42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E03E8E1B5AC58B00A8BC42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33E03E921B5AC58B00A8BC42 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E03E931B5AC58B00A8BC42 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33E03EA11B5AC58B00A8BC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33E03EA21B5AC58B00A8BC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33E03EA41B5AC58B00A8BC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UsingNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33E03EA51B5AC58B00A8BC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UsingNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33E03EA71B5AC58B00A8BC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UsingNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsingNotifications.app/UsingNotifications";
+			};
+			name = Debug;
+		};
+		33E03EA81B5AC58B00A8BC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UsingNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsingNotifications.app/UsingNotifications";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33E03E781B5AC58B00A8BC42 /* Build configuration list for PBXProject "UsingNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E03EA11B5AC58B00A8BC42 /* Debug */,
+				33E03EA21B5AC58B00A8BC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E03EA31B5AC58B00A8BC42 /* Build configuration list for PBXNativeTarget "UsingNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E03EA41B5AC58B00A8BC42 /* Debug */,
+				33E03EA51B5AC58B00A8BC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E03EA61B5AC58B00A8BC42 /* Build configuration list for PBXNativeTarget "UsingNotificationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E03EA71B5AC58B00A8BC42 /* Debug */,
+				33E03EA81B5AC58B00A8BC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33E03E751B5AC58B00A8BC42 /* Project object */;
+}
