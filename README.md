@@ -1,7 +1,7 @@
 # UsingNotifications
 iOS, Objective-C, Notification-Observe Design Pattern
 
-Let’s be clear that this is not Push(UIUserNotificationType class) or Local(UILocalNotification ) Notifications in iOS. They are iOS features, here we are talking about a very useful Design Pattern called Notifications(using NSNotificationCenter class). This design pattern enables code reusability, enable multiple objects to react to a single notification and a few others benefits.
+Let’s be clear that this is not Push(UIUserNotificationType class) or Local(UILocalNotification) Notifications in iOS. They are iOS features, here we are talking about a very useful Design Pattern called Notifications(using NSNotificationCenter class). This design pattern enables code reusability, enable multiple objects to react to a single notification and a few others benefits.
 
 Now If we go by name, it is understood that, we are talking about "someone Notifying something" && "someone actively Observing for something". Clearly those someone's inference here are classes, perhaps objects at run time. Hence to summarize, this is an arrangement between objects in which one object Notifies other Objects/Object about an event/action/message that it intends to Broadcast to all its registered observers. Here we are talking about one to many relationships between notifier and its registered observer's. This is almost analogous to a real life example of radio station. The radio station(notifier) broadcasts some frequency of waves and only interested listeners/users(registered observers) tune in to listen the radio. 
 
